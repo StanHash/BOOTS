@@ -29,7 +29,7 @@
 	#ifndef NO_BOOTS_USE_FREESPACE
 		#ifndef NO_CHAPTERNAMES
 			#include "3rdparty/chapternames.fe8.ea"
-		#endif // NO_ESSENTIALFIXES
+		#endif // NO_CHAPTERNAMES
 	#endif // NO_BOOTS_USE_FREESPACE
 #endif // _FE8_
 
