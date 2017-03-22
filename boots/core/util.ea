@@ -11,6 +11,10 @@
 #define AnimationForWeapon(aIdItemWeapon, aIdAnimation) "BYTE aIdItemWeapon 0x00 aIdAnimation 0x00"
 #define AnimationEnd "BYTE 0x00 0x00 0x00 0x00"
 
+// Weapon Advantage Table Helpers (Thanks to colorz for those!)
+#define WTAAdvantage(aAttackWpn, aDefenseWpn) "BYTE aAttackWpn aDefenseWpn 0x0F 0x01 aDefenseWpn aAttackWpn 0xF1 0xFF"
+#define WTAEnd "BYTE 0xFF 0xFF"
+
 #define PaletteColor(aRed, aGreen, aBlue) "SHORT GetPaletteColor(aRed, aGreen, aBlue)"
 
 #ifdef _FE6_

@@ -135,4 +135,8 @@
 	#endif // _FE8_
 #endif // _FE6_
 
+#define classNone 0x00
+#define unitNone 0x00
+#define itemNone 0x00
+
 #endif // BOOTS_CORE_CONSTANTS_EA
