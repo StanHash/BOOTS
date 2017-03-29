@@ -3,8 +3,6 @@
 
 // Defines FE8 base game indexes
 
-#include "constants.ea"
-
 #ifdef _FE8_
 	#ifndef NO_VANILLA_CHAPTERS
 		#define chapterPrologue 0x00
